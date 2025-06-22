@@ -1,6 +1,6 @@
 # 🔋 Low Power VLSI Design of Manchester Carry Chain Adder
 
-This repository contains Verilog-based implementations and analysis of the **Manchester Carry Chain (MCC) Adder** using various CMOS logic styles. The designs are evaluated for power, delay, and Power-Delay Product (PDP) using industry-standard EDA tools.
+This repository contains Analysis of the **Manchester Carry Chain (MCC) Adder** using various CMOS logic styles. The designs are evaluated for power, delay, and Power-Delay Product (PDP) using Cadence Virtuoso.
 
 ---
 
