@@ -34,16 +34,16 @@ Recursive logic:
 ## 🧩 Fundamental Circuits
 
 ### 🟩 Generate Circuit (AND - Static CMOS)
-![Generate Circuit](images/generate_circuit.png)
+![Generate Circuit](images/gi_ckt.png)
 
 ### 🟦 Propagate Circuit (XOR - Static CMOS)
-![Propagate Circuit](images/propagate_circuit.png)
+![Propagate Circuit](images/pi_ckt.png)
 
 ### 🟨 Sum Circuit (XOR - Static CMOS)
-![Sum Circuit](images/sum_circuit.png)
+![Sum Circuit](images/sum_ckt.png)
 
 ### 🟥 Kill Circuit (NOR - Static CMOS)
-![Kill Circuit](images/kill_circuit.png)
+![Kill Circuit](images/ki_ckt.png)
 
 ---
 
@@ -54,10 +54,10 @@ Recursive logic:
 > **🔍 Insight:** Robust, but higher delay due to full-swing static design. Pass transistor reduces transistor count but can degrade logic level.
 
 - **Schematic:**
-  ![Static CMOS with Pass Transistor](images/static_cmos_pass_transistor.png)
+  ![Static CMOS with Pass Transistor](images/static_ckt.png)
 
 - **Waveform:**
-  ![Waveform - Static CMOS](images/waveform_static_cmos.png)
+  ![Waveform - Static CMOS](images/static_output.png)
 
 - **Results:**
   - Static Power: 2.2 µW
@@ -73,13 +73,13 @@ Recursive logic:
 > **🔍 Insight:** Uses bidirectional switching; improves signal integrity and slightly reduces delay.
 
 - **Transmission Gate:**
-  ![Transmission Gate](images/transmission_gate.png)
+  ![Transmission Gate](images/transmission_ckt1.png)
 
 - **MCC with Transmission Gate:**
-  ![MCC with Transmission Gate](images/mcc_transmission_gate.png)
+  ![MCC with Transmission Gate](images/transmission_ckt2.png)
 
 - **Waveform:**
-  ![Waveform - Transmission Gate](images/waveform_transmission_gate.png)
+  ![Waveform - Transmission Gate](images/transmission_output.png)
 
 - **Results:**
   - Static Power: 2.2 µW
@@ -95,13 +95,13 @@ Recursive logic:
 > **🔍 Insight:** Fast due to fewer transistors and lower parasitic capacitance. Power-hungry due to clocked precharge-evaluate phases.
 
 - **Dynamic Logic Circuit:**
-  ![Dynamic Logic](images/dynamic_logic.png)
+  ![Dynamic Logic](images/dynamic_ckt1.png)
 
 - **MCC in Dynamic Logic:**
-  ![MCC with Dynamic Logic](images/mcc_dynamic_logic.png)
+  ![MCC with Dynamic Logic](images/dynamic_ckt2.png)
 
 - **Waveform:**
-  ![Waveform - Dynamic Logic](images/waveform_dynamic_logic.png)
+  ![Waveform - Dynamic Logic](images/dynamic_output.png)
 
 - **Results:**
   - Static Power: 2.2 µW
@@ -117,13 +117,13 @@ Recursive logic:
 > **🔍 Insight:** Best performance due to keeper transistor, full swing output, and efficient cascading.
 
 - **Domino Logic Circuit:**
-  ![Domino Logic](images/domino_logic.png)
+  ![Domino Logic](images/domino_ckt1.png)
 
 - **MCC with Domino Logic:**
-  ![MCC with Domino Logic](images/mcc_domino_logic.png)
+  ![MCC with Domino Logic](images/domino_ckt2.png)
 
 - **Waveform:**
-  ![Waveform - Domino Logic](images/waveform_domino_logic.png)
+  ![Waveform - Domino Logic](images/domino_output.png)
 
 - **Results:**
   - Static Power: 2.2 µW
